@@ -54,3 +54,7 @@ aircrack-ng -w rockyou.txt -b <BSSID> capture.cap
 ```
 
 **방어**: WPA3 또는 강력한 WPA2 패스프레이즈, WPS 비활성화, 게스트망 분리.
+
+---
+
+> 🧪 **실습해 보기**: [네트워크·시스템 실습 문제](/docs/labs/network-system-challenges/) — 본인 소유 랩·AP에서만 캡처와 크래킹을 연습한다.

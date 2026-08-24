@@ -50,3 +50,7 @@ theHarvester -d example.com -b bing,crtsh
 
 OSINT로 노출되는 것은 곧 공격자에게 노출되는 것이다. 방어팀은 **공개된 자산 최소화**,
 **GitHub 비밀 스캔**, **직원 SNS 보안 인식 교육**으로 표면을 줄인다.
+
+---
+
+> 🧪 **실습해 보기**: [네트워크·시스템 실습 문제](/docs/labs/network-system-challenges/) — 수집한 정보를 능동 스캐닝으로 검증한다.

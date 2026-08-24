@@ -64,3 +64,7 @@ sqlmap -u "http://target/item?id=1" --batch --dbs
 - **파라미터화 쿼리(Prepared Statement)** — 근본 해법. 입력을 데이터로만 취급.
 - **ORM 사용**, 입력 검증, 최소 권한 DB 계정, WAF는 보조 수단.
 - 명령어 주입도 같은 원리 — 셸에 입력을 넘기지 말고 인자 배열로 실행한다.
+
+---
+
+> 🧪 **실습해 보기**: [문제 1 — 로그인 우회(SQLi)](/docs/labs/web-challenges/#c1-sqli) — SQL 인젝션으로 인증을 우회해 본다.

@@ -64,3 +64,7 @@ flowchart TD
     D --> E[취약점 후보 목록]
     E --> F[익스플로잇 단계로]
 ```
+
+---
+
+> 🧪 **실습해 보기**: [문제 1 — 열린 문 찾기](/docs/labs/network-system-challenges/#c1-scan) — 전체 포트 스캔과 서비스 열거를 직접 수행한다.

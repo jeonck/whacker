@@ -59,3 +59,7 @@ find / -perm -4000 -type f 2>/dev/null   # SUID 탐색
 - **한 번에 하나씩** 벡터를 검증하고 기록한다.
 - 자동 도구 결과를 맹신하지 말고 수동으로 재확인한다.
 - 얻은 자격증명은 [측면이동](/docs/system/persistence-lateral/)의 재료가 된다.
+
+---
+
+> 🧪 **실습해 보기**: [문제 3 — root 되기](/docs/labs/network-system-challenges/#c3-privesc) — 열거를 통해 권한을 상승시킨다.

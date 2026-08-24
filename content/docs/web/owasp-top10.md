@@ -43,3 +43,7 @@ flowchart LR
 - **브라우저 개발자도구** — 요청·쿠키·스토리지 확인.
 
 다음 페이지들에서 A03(인젝션), XSS/CSRF, A07(인증/세션)을 실습한다.
+
+---
+
+> 🧪 **실습해 보기**: [웹 해킹 실습 문제](/docs/labs/web-challenges/) — Top 10 항목을 Juice Shop·DVWA에서 실제로 익스플로잇한다.

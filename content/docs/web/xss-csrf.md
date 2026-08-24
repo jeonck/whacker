@@ -48,3 +48,7 @@ sequenceDiagram
 
 **방어**: **CSRF 토큰**(예측 불가한 값을 폼에 포함해 검증),
 `SameSite=Lax/Strict` 쿠키, 중요 작업에 재인증.
+
+---
+
+> 🧪 **실습해 보기**: [문제 2 — 저장형 XSS](/docs/labs/web-challenges/#c2-xss) — 저장형 XSS 페이로드를 직접 심어 본다.
