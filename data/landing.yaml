@@ -12,6 +12,11 @@ hero:
   title: "White Hacker Academy"
   subtitle: "화이트해커와 레드팀을 양질의 인력으로 양성하는 실무 중심 지식베이스. **인가된 환경에서만** 수행하는 공격 기술을 정찰부터 레드팀 운영까지 체계적으로 익힌다."
 
+  image:
+    path: "images"
+    filename: "hero.svg"
+    alt: "화이트해커 실습 터미널과 방패 엠블럼"
+
   ctaButton:
     icon: rocket_launch
     btnText: "커리큘럼 시작하기"

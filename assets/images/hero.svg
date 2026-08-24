@@ -1,0 +1,58 @@
+<svg width="560" height="440" viewBox="0 0 560 440" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="화이트해커 실습 터미널과 방패 엠블럼">
+  <defs>
+    <linearGradient id="whRed" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f05252"/>
+      <stop offset="1" stop-color="#b91c1c"/>
+    </linearGradient>
+    <linearGradient id="whPanel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#232336"/>
+      <stop offset="1" stop-color="#1a1a28"/>
+    </linearGradient>
+    <filter id="whShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#b91c1c" flood-opacity="0.28"/>
+    </filter>
+    <style>
+      .whMono{font-family:'Fira Code',ui-monospace,SFMono-Regular,Menlo,monospace;font-size:15px;}
+      @keyframes whBlink{50%{opacity:0}}
+      .whCursor{animation:whBlink 1.05s step-end infinite;}
+      @keyframes whFloat{50%{transform:translateY(-8px)}}
+      .whFloat{animation:whFloat 5s ease-in-out infinite;transform-box:fill-box;transform-origin:center;}
+    </style>
+  </defs>
+
+  <!-- ambient accent blobs -->
+  <circle cx="470" cy="90" r="70" fill="url(#whRed)" opacity="0.10"/>
+  <circle cx="80" cy="360" r="54" fill="url(#whRed)" opacity="0.08"/>
+
+  <!-- terminal window -->
+  <g filter="url(#whShadow)">
+    <rect x="40" y="70" width="410" height="290" rx="16" fill="url(#whPanel)"/>
+    <rect x="40" y="70" width="410" height="42" rx="16" fill="#2c2c40"/>
+    <rect x="40" y="96" width="410" height="16" fill="#2c2c40"/>
+    <circle cx="66" cy="91" r="6" fill="#f05252"/>
+    <circle cx="86" cy="91" r="6" fill="#f7b955"/>
+    <circle cx="106" cy="91" r="6" fill="#3ecf8e"/>
+    <text x="230" y="96" text-anchor="middle" class="whMono" fill="#8a8aa3" style="font-size:12px">whacker@lab: ~/pentest</text>
+
+    <!-- prompt lines -->
+    <text x="66" y="150" class="whMono" fill="#3ecf8e">$ <tspan fill="#e5e5ef">nmap -sV 10.10.10.5</tspan></text>
+    <text x="66" y="178" class="whMono" fill="#8a8aa3">PORT   STATE SERVICE</text>
+    <text x="66" y="202" class="whMono" fill="#c9c9dc">80/tcp <tspan fill="#3ecf8e">open</tspan>  http</text>
+    <text x="66" y="226" class="whMono" fill="#c9c9dc">445/tcp <tspan fill="#3ecf8e">open</tspan> smb</text>
+    <text x="66" y="262" class="whMono" fill="#3ecf8e">$ <tspan fill="#f05252">whoami</tspan></text>
+    <text x="66" y="286" class="whMono" fill="#e5e5ef">root</text>
+    <text x="66" y="322" class="whMono" fill="#3ecf8e">$ <tspan fill="#e5e5ef">flag</tspan> <tspan class="whCursor" fill="#f05252">▋</tspan></text>
+  </g>
+
+  <!-- ethical shield emblem -->
+  <g class="whFloat" transform="translate(372,232)">
+    <path d="M64 4 L118 26 V70 C118 108 96 138 64 152 C32 138 10 108 10 70 V26 Z"
+          fill="url(#whRed)" stroke="#ffffff" stroke-opacity="0.9" stroke-width="3"/>
+    <path d="M40 76 l16 16 l32 -34" fill="none" stroke="#ffffff" stroke-width="9"
+          stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- floating hex accents -->
+  <text x="150" y="46" class="whMono" fill="#f05252" opacity="0.55" style="font-size:13px">0x1F</text>
+  <text x="360" y="392" class="whMono" fill="#f05252" opacity="0.45" style="font-size:13px">sudo -l</text>
+</svg>
