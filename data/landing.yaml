@@ -29,7 +29,7 @@ featureGrid:
   template: feature grid
 
   title: "커리큘럼 한눈에"
-  subtitle: "기반부터 레드팀 운영까지, 7개 영역 18개 실무 문서."
+  subtitle: "기반부터 레드팀 운영까지, 8개 영역 21개 실무 문서·실습."
 
   items:
     - title: "시작하기"
@@ -80,3 +80,10 @@ featureGrid:
       ctaLink:
         text: browse
         url: /docs/resources/
+
+    - title: "실습 예제 문제"
+      icon: quiz
+      description: "배운 기법을 인가된 랩에서 직접 푸는 단계별 도전 과제와 자가 점검 문제."
+      ctaLink:
+        text: browse
+        url: /docs/labs/

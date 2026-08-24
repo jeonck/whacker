@@ -26,3 +26,4 @@ draft: false
 5. [시스템 & 포스트 익스플로잇](/docs/system/) — 권한상승, 지속성·측면이동
 6. [레드팀 작전](/docs/redteam/) — MITRE ATT&CK, C2, 소셜 엔지니어링, 보고서
 7. [도구 & 커리어](/docs/resources/) — 핵심 도구, 자격증·진로
+8. [실습 예제 문제](/docs/labs/) — 단계별 도전 과제와 자가 점검 문제
