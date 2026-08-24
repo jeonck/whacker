@@ -1,0 +1,82 @@
+hero:
+  enable: true
+  weight: 10
+  template: hero
+
+  badge:
+    text: "합법적·윤리적 보안 교육"
+    color: danger
+    pill: true
+    soft: true
+
+  title: "White Hacker Academy"
+  subtitle: "화이트해커와 레드팀을 양질의 인력으로 양성하는 실무 중심 지식베이스. **인가된 환경에서만** 수행하는 공격 기술을 정찰부터 레드팀 운영까지 체계적으로 익힌다."
+
+  ctaButton:
+    icon: rocket_launch
+    btnText: "커리큘럼 시작하기"
+    url: "/docs/"
+  cta2Button:
+    icon: hub
+    btnText: "GitHub"
+    url: "https://github.com/jeonck/whacker"
+
+  info: "⚠️ 모든 실습은 본인 소유 또는 서면 허가받은 시스템·실습 랩에서만. Built with **Hugo** & **Lotus Docs**."
+
+featureGrid:
+  enable: true
+  weight: 20
+  template: feature grid
+
+  title: "커리큘럼 한눈에"
+  subtitle: "기반부터 레드팀 운영까지, 7개 영역 18개 실무 문서."
+
+  items:
+    - title: "시작하기"
+      icon: flag
+      description: "윤리와 법률, 격리된 실습 랩 구축, 화이트해커 학습 로드맵."
+      ctaLink:
+        text: browse
+        url: /docs/getting-started/
+
+    - title: "정찰"
+      icon: travel_explore
+      description: "OSINT 수동 정찰과 nmap 기반 스캐닝·서비스 열거."
+      ctaLink:
+        text: browse
+        url: /docs/recon/
+
+    - title: "웹 애플리케이션 해킹"
+      icon: language
+      description: "OWASP Top 10, SQL 인젝션, XSS/CSRF, 인증·세션 공격."
+      ctaLink:
+        text: browse
+        url: /docs/web/
+
+    - title: "네트워크 & 인프라"
+      icon: lan
+      description: "서비스 익스플로잇, 스니핑·MITM, 무선 보안 평가."
+      ctaLink:
+        text: browse
+        url: /docs/network/
+
+    - title: "시스템 & 포스트 익스플로잇"
+      icon: terminal
+      description: "Linux/Windows 권한상승, 지속성, 측면이동."
+      ctaLink:
+        text: browse
+        url: /docs/system/
+
+    - title: "레드팀 작전"
+      icon: security
+      description: "MITRE ATT&CK 에뮬레이션, C2, 소셜 엔지니어링, 보고서."
+      ctaLink:
+        text: browse
+        url: /docs/redteam/
+
+    - title: "도구 & 커리어"
+      icon: build
+      description: "표준 도구 모음과 자격증·진로 로드맵."
+      ctaLink:
+        text: browse
+        url: /docs/resources/
