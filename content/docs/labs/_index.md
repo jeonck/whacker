@@ -13,7 +13,7 @@ draft: false
 자가 점검 문제로 구성된다.
 
 > ⚠️ 모든 문제는 **본인 소유 시스템, 지정된 실습 랩, 또는 명시적으로 인가된
-> 공개 플랫폼(HTB, THM, PortSwigger, Juice Shop 등)**에서만 수행한다.
+> 공개 플랫폼**(HTB, THM, PortSwigger, Juice Shop 등)에서만 수행한다.
 > 실제 서비스·타인 시스템 대상 실습은 [윤리와 법률](/docs/getting-started/ethics-legal/) 위반이다.
 
 ## 난이도 표기 {#difficulty}

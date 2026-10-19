@@ -23,7 +23,7 @@ draft: false
 
 ## IDOR / 접근통제 우회 {#idor}
 
-**IDOR(Insecure Direct Object Reference)**는 A01의 대표 사례다. 요청의 식별자만
+**IDOR**(Insecure Direct Object Reference)는 A01의 대표 사례다. 요청의 식별자만
 바꿔 남의 리소스에 접근한다.
 
 ```http
